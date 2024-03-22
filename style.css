@@ -396,8 +396,30 @@ body {
 }
 
 footer {
-  padding: 8.2rem 0;
+  padding: 8.2rem 0 4rem;
   background-color: #121212;
+}
+
+.footer-container {
+  max-width: 80rem;
+  margin: 0 auto 4rem;
+  padding: 0 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 9px;
+  justify-content: center;
+}
+
+.mail {
+  font-size: 18px;
+  color: #e8e8e8;
 }
 
 .copyright {
@@ -624,12 +646,18 @@ footer {
 
   .main-text-box {
     padding: 10rem 0rem 10rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .main-text {
-    padding: 12rem 0rem 4rem;
+    padding: 3rem 0;
     width: 250px;
     font-size: 44px;
+  }
+  .main-btn {
+    width: 250px;
   }
 
   .grid-2-cols {
@@ -638,6 +666,10 @@ footer {
 
   .features {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .mail {
+    font-size: 16px;
   }
 }
 
@@ -656,7 +688,7 @@ footer {
         rgba(0, 0, 0, 0.6),
         rgba(0, 0, 0, 0.4)
       ),
-      url("images/IMG_2431.JPG");
+      url("images/main-img.JPG");
   }
 
   .main-nav {
