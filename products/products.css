@@ -343,4 +343,8 @@
   .product-price {
     width: 80%;
   }
+
+  .product-text-box {
+    padding-inline: 0rem;
+  }
 }
